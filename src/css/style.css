@@ -80,3 +80,103 @@ li a {
   background-color: #f8f8f8;
   border-radius: 50%;
 }
+/* hero-aside container */
+
+.hero-aside {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 5%;
+  max-height: 751px;
+}
+aside {
+  max-width: 395px;
+  width: 90%;
+  padding: 30px;
+  background-color: #f8f8f8;
+  border-radius: 24px;
+  box-shadow: 0px 4px 25px 0px #c2c2c24f;
+}
+form select,
+form h1 {
+  margin-top: 10px;
+}
+form select {
+  max-width: 331px;
+  width: 100%;
+  height: 48px;
+  border: none;
+  border-radius: 10px;
+  padding: 8px;
+}
+.checkboxes {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.checkboxes div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.checkboxes .check-input {
+  accent-color: #29b24e;
+}
+.checkboxes label {
+  font-size: 14px;
+}
+
+/* hero */
+
+.hero-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+.image-container img {
+  max-width: 1225px;
+  width: 100%;
+  height: 100%;
+  border-radius: 24px;
+  object-fit: cover;
+}
+.hero-text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+}
+.hero-text h1 {
+  font-size: 48px;
+  font-weight: 600;
+}
+.hero-text h4 {
+  color: #000000cc;
+  margin-top: 10px;
+}
+.search-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 324px;
+  width: 100%;
+  background: #f8f8f8cc;
+  padding: 15px;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+.search-box input {
+  border: none;
+  width: 100%;
+  background: #f8f8f800;
+}
+.search-box img {
+  cursor: pointer;
+}
