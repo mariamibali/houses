@@ -45,7 +45,7 @@ header {
   transform: translate(-50%);
   z-index: 1;
   background-color: #f2f2f2;
-  padding: 30px;
+  padding: 16px;
   width: 100%;
   box-shadow: 0px 5px 25px 0px #c2c2c24f;
 }
@@ -85,6 +85,7 @@ li a {
 .hero-aside {
   display: flex;
   justify-content: space-between;
+  flex-direction: row-reverse;
   gap: 10px;
   margin-top: 5%;
   max-height: 751px;
@@ -166,7 +167,7 @@ form select {
   align-items: center;
   justify-content: space-between;
   max-width: 324px;
-  width: 100%;
+  width: 90%;
   background: #f8f8f8cc;
   padding: 15px;
   margin-top: 40px;
@@ -237,7 +238,7 @@ article {
   border-top: 1px solid #cfead6;
   padding-top: 20px;
 }
-span:first-child {
+.spans-container span:first-child {
   position: absolute;
   top: 3%;
   left: 3%;
@@ -247,7 +248,7 @@ span:first-child {
   font-size: 12px;
   border-radius: 15px;
 }
-span:nth-of-type(2) {
+.spans-container span:last-child {
   position: absolute;
   bottom: 42%;
   right: 5%;
@@ -255,4 +256,37 @@ span:nth-of-type(2) {
   padding: 10px;
   border-radius: 50%;
   display: flex;
+}
+
+/* footer */
+
+footer {
+  background-color: #29b24e;
+  border-radius: 25px;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1640px;
+  width: 100%;
+  padding: 30px;
+}
+footer li a,
+footer p {
+  color: #ffffff;
+}
+.rights {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+hr {
+  width: 100%;
+}
+
+/* bottom nav */
+
+.mobile-nav {
+  display: none;
 }
