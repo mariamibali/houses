@@ -646,9 +646,6 @@ hr {
 
   /* home page */
 
-  .home-page-body header {
-    display: none;
-  }
   .home-page-body .container {
     margin-top: 30px;
   }
